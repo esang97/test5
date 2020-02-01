@@ -27,6 +27,9 @@ class Memo {
         Memo(content: "Momo3"),
         Memo(content: "Momo4"),
         Memo(content: "Momo5"),
+        Memo(content: "Momo3"),
+        Memo(content: "Momo4"),
+        Memo(content: "Momo5"),
         Memo(content: "Momo6")
     ]
 }

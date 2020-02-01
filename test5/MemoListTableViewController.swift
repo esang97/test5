@@ -37,7 +37,7 @@ class MemoListTableViewController: UITableViewController {
         
         cell.textLabel?.text = target.content
         cell.detailTextLabel?.text = target.insertDate.description
-        //print(cell.textLabel.text)
+        //print(cell.textLabel?.text)
         return cell
     }
 
