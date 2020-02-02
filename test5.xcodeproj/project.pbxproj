@@ -16,6 +16,7 @@
 		046BD5B423E5A9B8005AD7E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BD5B323E5A9B8005AD7E7 /* Model.swift */; };
 		046BD5BC23E5C4F1005AD7E7 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BD5BB23E5C4F1005AD7E7 /* MemoListTableViewController.swift */; };
 		A0DB76E223E700EB00DD668E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB76E123E700EB00DD668E /* ComposeViewController.swift */; };
+		A0DB76E423E70CBE00DD668E /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB76E323E70CBE00DD668E /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		046BD5B323E5A9B8005AD7E7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		046BD5BB23E5C4F1005AD7E7 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		A0DB76E123E700EB00DD668E /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		A0DB76E323E70CBE00DD668E /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				046BD5A423E59BF3005AD7E7 /* test5.xcdatamodeld */,
 				046BD5BB23E5C4F1005AD7E7 /* MemoListTableViewController.swift */,
 				A0DB76E123E700EB00DD668E /* ComposeViewController.swift */,
+				A0DB76E323E70CBE00DD668E /* UIViewController+Alert.swift */,
 			);
 			path = test5;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				A0DB76E223E700EB00DD668E /* ComposeViewController.swift in Sources */,
 				046BD5A623E59BF3005AD7E7 /* test5.xcdatamodeld in Sources */,
 				046BD5B423E5A9B8005AD7E7 /* Model.swift in Sources */,
+				A0DB76E423E70CBE00DD668E /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
