@@ -114,7 +114,7 @@
             <objects>
                 <navigationController id="Qix-HJ-Iip" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="tbR-Os-QGN">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -154,7 +154,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Via-ft-4rT">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="l5x-87-iaL"/>
+                                    <barButtonItem title="Item" systemItem="compose" id="l5x-87-iaL">
+                                        <connections>
+                                            <segue destination="9Bp-dI-GZs" kind="presentation" id="51v-5d-IWU"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-gP-Qsi">
@@ -218,10 +222,16 @@
                         <viewLayoutGuide key="safeArea" id="WvI-lV-C1T"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="c42-ig-vXh"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="HrD-gP-Qsi" id="7Ze-l7-6ms"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYi-WQ-scu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.97101449275374" y="109.82142857142857"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="51v-5d-IWU"/>
+    </inferredMetricsTieBreakers>
 </document>
