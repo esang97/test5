@@ -43,8 +43,8 @@ class DetailViewController: UIViewController {
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self] (noti) in
             self?.memoTableView.reloadData()
         })
-    
-    
+    }
+}
 
     /*
     // MARK: - Navigation
@@ -55,8 +55,6 @@ class DetailViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-}
 
 extension DetailViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
