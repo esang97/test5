@@ -22,6 +22,9 @@ class DetailViewController: UIViewController {
            return f
        }()
     
+    @IBAction func deleteMemo(_ sender: Any) {
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination.children.first as?
             ComposeViewController {
